@@ -79,6 +79,45 @@ def resolve_api_key(key_env: str, api_keys_map: Dict[str, str]) -> str:
     return api_keys_map.get(key_env, "").strip()
 
 
+ENDPOINTS = {
+    "anthropic": "/v1/messages",
+    "openai": "/v1/chat/completions",
+}
+
+
+def build_request(api_format: str, api_key: str, model: str, user_message: str) -> tuple:
+    if api_format == "anthropic":
+        headers = {
+            "x-api-key": api_key,
+            "Content-Type": "application/json",
+            "anthropic-version": "2023-06-01",
+            "User-Agent": "claude-code/2.1.0",
+        }
+        payload = {
+            "model": model,
+            "max_tokens": 1,
+            "messages": [{"role": "user", "content": user_message}],
+        }
+    else:
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        }
+        payload = {
+            "model": model,
+            "messages": [{"role": "user", "content": user_message}],
+            "max_tokens": 1,
+            "temperature": 0,
+        }
+    return headers, payload
+
+
+def validate_response(body: Dict[str, Any], api_format: str) -> bool:
+    if api_format == "anthropic":
+        return bool(body.get("content") or body.get("id"))
+    return bool(body.get("choices"))
+
+
 def check_one_api(
     api: Dict[str, Any], timeout_sec: int, user_message: str, api_keys_map: Dict[str, str]
 ) -> Dict[str, Any]:
@@ -86,7 +125,8 @@ def check_one_api(
     base_url = api["base_url"]
     model = api["model"]
     key_env = api["api_key_env"]
-    endpoint = api.get("endpoint", "/v1/chat/completions")
+    api_format = api.get("format", "anthropic")
+    endpoint = api.get("endpoint", ENDPOINTS.get(api_format, "/v1/messages"))
     url = normalize_url(base_url, endpoint)
     api_key = resolve_api_key(key_env, api_keys_map)
 
@@ -107,16 +147,7 @@ def check_one_api(
         result["error"] = f"Missing env: {key_env}"
         return result
 
-    headers = {
-        "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json",
-    }
-    payload = {
-        "model": model,
-        "messages": [{"role": "user", "content": user_message}],
-        "max_tokens": 1,
-        "temperature": 0,
-    }
+    headers, payload = build_request(api_format, api_key, model, user_message)
 
     start = time.perf_counter()
     try:
@@ -127,7 +158,7 @@ def check_one_api(
 
         if response.status_code == 200:
             body = response.json()
-            if isinstance(body, dict) and body.get("choices"):
+            if isinstance(body, dict) and validate_response(body, api_format):
                 result["status"] = "up"
             else:
                 result["status"] = "degraded"

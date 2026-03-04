@@ -3,28 +3,33 @@ apis:
     base_url: "https://code.newcli.com/claude/aws"
     model: "claude-opus-4-6"
     api_key_env: "FOXCODE_KEY"
+    format: "anthropic"
 
   - name: "Aiberm"
     base_url: "https://aiberm.com"
     model: "claude-opus-4-6"
     api_key_env: "AIBERM_KEY"
+    format: "openai"
 
   - name: "Aigocode #1"
     base_url: "https://api.aigocode.com"
     model: "claude-opus-4-6"
     api_key_env: "AIGOCODE_KEY_1"
+    format: "anthropic"
 
   - name: "Aigocode #2"
     base_url: "https://api.aigocode.com"
     model: "claude-opus-4-6"
     api_key_env: "AIGOCODE_KEY_2"
+    format: "anthropic"
 
   - name: "Aigocode #3"
     base_url: "https://api.aigocode.com"
     model: "claude-opus-4-6"
     api_key_env: "AIGOCODE_KEY_3"
+    format: "anthropic"
 
 settings:
   check_timeout: 30
   max_history_days: 90
-  user_message: "ping"
+  user_message: "hi"
