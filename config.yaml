@@ -1,0 +1,20 @@
+apis:
+  - name: "Foxcode"
+    base_url: "https://code.newcli.com/claude/aws"
+    model: "claude-opus-4-6"
+    api_key_env: "FOXCODE_KEY"
+
+  - name: "Aiberm"
+    base_url: "https://aiberm.com"
+    model: "claude-opus-4-6"
+    api_key_env: "AIBERM_KEY"
+
+  - name: "Aigocode"
+    base_url: "https://api.aigocode.com"
+    model: "claude-opus-4-6"
+    api_key_env: "AIGOCODE_KEY"
+
+settings:
+  check_timeout: 30
+  max_history_days: 90
+  user_message: "ping"
