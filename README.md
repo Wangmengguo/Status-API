@@ -2,7 +2,7 @@
 
 一个最简洁的 API 可用性监测页面：
 
-- GitHub Actions 每 5 分钟自动检测一次 API
+- GitHub Actions 每 15 分钟自动检测一次 API（北京时间 8:00–24:00，0:00–8:00 静默）
 - 检测结果写入 `data/status.json` 和 `data/history.json`
 - GitHub Pages 自动展示网页（类似 status page）
 
@@ -19,7 +19,9 @@
 {
   "FOXCODE_KEY": "sk-xxx",
   "AIBERM_KEY": "sk-yyy",
-  "AIGOCODE_KEY": "sk-zzz"
+  "AIGOCODE_KEY_1": "sk-zzz",
+  "AIGOCODE_KEY_2": "sk-zzz",
+  "AIGOCODE_KEY_3": "sk-zzz"
 }
 ```
 
@@ -35,29 +37,29 @@ apis:
     base_url: "https://code.newcli.com/claude/aws"
     model: "claude-opus-4-6"
     api_key_env: "FOXCODE_KEY"
+    format: "anthropic"
 
   - name: "Aiberm"
     base_url: "https://aiberm.com"
     model: "claude-opus-4-6"
     api_key_env: "AIBERM_KEY"
-
-  - name: "Aigocode"
-    base_url: "https://api.aigocode.com"
-    model: "claude-opus-4-6"
-    api_key_env: "AIGOCODE_KEY"
+    format: "anthropic"
 
 settings:
   check_timeout: 30
   max_history_days: 90
-  user_message: "ping"
+  user_message: "hi"
 ```
 
 字段说明：
 
 - `name`：页面展示名
-- `base_url`：API 的 base URL（不带 `/chat/completions` 也可以）
-- `model`：要测试的代表模型（建议每个服务只测 1 个）
+- `base_url`：API 的 base URL
+- `model`：要测试的代表模型
 - `api_key_env`：API key 的逻辑名称，会从 `API_KEYS_JSON` 里查找
+- `format`：`anthropic`（Claude 原生）或 `openai`（OpenAI 兼容）
+
+详细运维说明见 [OPERATIONS.md](OPERATIONS.md)。
 
 ---
 
@@ -80,7 +82,7 @@ settings:
 
 `/.github/workflows/check.yml`
 
-默认每 5 分钟执行一次，也支持手动触发：
+按 cron 定时执行（见 [OPERATIONS.md](OPERATIONS.md)），也支持手动触发：
 
 - GitHub 仓库 -> `Actions` -> `API Status Check` -> `Run workflow`
 
@@ -92,7 +94,7 @@ settings:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-export API_KEYS_JSON='{"FOXCODE_KEY":"你的key","AIBERM_KEY":"你的key","AIGOCODE_KEY":"你的key"}'
+export API_KEYS_JSON='{"FOXCODE_KEY":"xxx","AIBERM_KEY":"xxx","AIGOCODE_KEY_1":"xxx","AIGOCODE_KEY_2":"xxx","AIGOCODE_KEY_3":"xxx"}'
 python checker.py
 ```
 
