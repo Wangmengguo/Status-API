@@ -86,7 +86,7 @@ def check_one_api(
     base_url = api["base_url"]
     model = api["model"]
     key_env = api["api_key_env"]
-    endpoint = api.get("endpoint", "/chat/completions")
+    endpoint = api.get("endpoint", "/v1/chat/completions")
     url = normalize_url(base_url, endpoint)
     api_key = resolve_api_key(key_env, api_keys_map)
 
