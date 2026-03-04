@@ -9,10 +9,20 @@ apis:
     model: "claude-opus-4-6"
     api_key_env: "AIBERM_KEY"
 
-  - name: "Aigocode"
+  - name: "Aigocode #1"
     base_url: "https://api.aigocode.com"
     model: "claude-opus-4-6"
-    api_key_env: "AIGOCODE_KEY"
+    api_key_env: "AIGOCODE_KEY_1"
+
+  - name: "Aigocode #2"
+    base_url: "https://api.aigocode.com"
+    model: "claude-opus-4-6"
+    api_key_env: "AIGOCODE_KEY_2"
+
+  - name: "Aigocode #3"
+    base_url: "https://api.aigocode.com"
+    model: "claude-opus-4-6"
+    api_key_env: "AIGOCODE_KEY_3"
 
 settings:
   check_timeout: 30
