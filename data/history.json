@@ -60,6 +60,36 @@
           "response_time_ms": 167
         }
       ]
+    },
+    {
+      "timestamp": "2026-03-04T16:25:39+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "degraded",
+          "response_time_ms": 2807
+        },
+        {
+          "name": "Aiberm",
+          "status": "up",
+          "response_time_ms": 2767
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "down",
+          "response_time_ms": 116
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "down",
+          "response_time_ms": 75
+        },
+        {
+          "name": "Aigocode #3",
+          "status": "down",
+          "response_time_ms": 101
+        }
+      ]
     }
   ],
   "incidents": [
@@ -77,11 +107,12 @@
       "id": "7bedf34a-8984-4634-a968-c36fe654ed9c",
       "api_name": "Aiberm",
       "start_time": "2026-03-04T16:13:00+00:00",
-      "end_time": null,
-      "status": "open",
+      "end_time": "2026-03-04T16:25:39+00:00",
+      "status": "resolved",
       "severity": "down",
-      "last_error": "Network error: Expecting value: line 1 column 1 (char 0)",
-      "last_http_status": 200
+      "last_error": null,
+      "last_http_status": 200,
+      "duration_minutes": 12
     },
     {
       "id": "6e131b5c-3ae9-4cf8-a0de-3df67c6a8580",
@@ -89,9 +120,9 @@
       "start_time": "2026-03-04T16:13:00+00:00",
       "end_time": null,
       "status": "open",
-      "severity": "degraded",
-      "last_error": "Unexpected HTTP 401",
-      "last_http_status": 401
+      "severity": "down",
+      "last_error": "Server error: HTTP 502",
+      "last_http_status": 502
     },
     {
       "id": "e68f44d5-2e27-4fa6-a6a9-6dd56fe95da8",
@@ -99,9 +130,9 @@
       "start_time": "2026-03-04T16:13:00+00:00",
       "end_time": null,
       "status": "open",
-      "severity": "degraded",
-      "last_error": "Unexpected HTTP 401",
-      "last_http_status": 401
+      "severity": "down",
+      "last_error": "Server error: HTTP 502",
+      "last_http_status": 502
     },
     {
       "id": "225ba496-61a5-4579-b8cb-b8b043a57b86",
@@ -109,9 +140,9 @@
       "start_time": "2026-03-04T16:13:00+00:00",
       "end_time": null,
       "status": "open",
-      "severity": "degraded",
-      "last_error": "Unexpected HTTP 401",
-      "last_http_status": 401
+      "severity": "down",
+      "last_error": "Server error: HTTP 502",
+      "last_http_status": 502
     }
   ]
 }
