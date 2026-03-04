@@ -55,7 +55,7 @@ def write_json(path: Path, data: Dict[str, Any]) -> None:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def normalize_url(base_url: str, endpoint: str = "/chat/completions") -> str:
+def normalize_url(base_url: str, endpoint: str = "/v1/chat/completions") -> str:
     return f"{base_url.rstrip('/')}{endpoint}"
 
 
