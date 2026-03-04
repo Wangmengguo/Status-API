@@ -219,11 +219,9 @@
         return arr;
       }
 
-      function summarizeHourStatus(states) {
-        if (!states || states.length === 0) return "nodata";
-        if (states.includes("down")) return "down";
-        if (states.includes("degraded")) return "degraded";
-        return "up";
+      function summarizeHourStatus(state) {
+        if (!state) return "nodata";
+        return state;
       }
 
       function fmtHourLabel(hKey) {
@@ -284,12 +282,12 @@
           label.innerHTML = `<span>48 小时前</span><span>现在</span>`;
           card.appendChild(label);
 
-          const byHour = new Map(hourKeys.map((k) => [k, []]));
+          const byHour = new Map(hourKeys.map((k) => [k, null]));
           for (const check of checks) {
             const key = hourKey(check.timestamp);
             if (!byHour.has(key)) continue;
             const r = (check.results || []).find((x) => x.name === api.name);
-            if (r) byHour.get(key).push(r.status);
+            if (r) byHour.set(key, r.status);
           }
 
           const grid = document.createElement("div");
