@@ -1,5 +1,87 @@
 {
   "retention_days": 90,
-  "checks": [],
-  "incidents": []
+  "checks": [
+    {
+      "timestamp": "2026-03-04T16:13:00+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "degraded",
+          "response_time_ms": 2926
+        },
+        {
+          "name": "Aiberm",
+          "status": "down",
+          "response_time_ms": 166
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 258
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 80
+        },
+        {
+          "name": "Aigocode #3",
+          "status": "degraded",
+          "response_time_ms": 186
+        }
+      ]
+    }
+  ],
+  "incidents": [
+    {
+      "id": "d403009f-e8fd-4678-9aa1-a66fef22036d",
+      "api_name": "Foxcode",
+      "start_time": "2026-03-04T16:13:00+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "degraded",
+      "last_error": "Unexpected HTTP 404",
+      "last_http_status": 404
+    },
+    {
+      "id": "7bedf34a-8984-4634-a968-c36fe654ed9c",
+      "api_name": "Aiberm",
+      "start_time": "2026-03-04T16:13:00+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "down",
+      "last_error": "Network error: Expecting value: line 1 column 1 (char 0)",
+      "last_http_status": 200
+    },
+    {
+      "id": "6e131b5c-3ae9-4cf8-a0de-3df67c6a8580",
+      "api_name": "Aigocode #1",
+      "start_time": "2026-03-04T16:13:00+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "degraded",
+      "last_error": "Unexpected HTTP 401",
+      "last_http_status": 401
+    },
+    {
+      "id": "e68f44d5-2e27-4fa6-a6a9-6dd56fe95da8",
+      "api_name": "Aigocode #2",
+      "start_time": "2026-03-04T16:13:00+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "degraded",
+      "last_error": "Unexpected HTTP 401",
+      "last_http_status": 401
+    },
+    {
+      "id": "225ba496-61a5-4579-b8cb-b8b043a57b86",
+      "api_name": "Aigocode #3",
+      "start_time": "2026-03-04T16:13:00+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "degraded",
+      "last_error": "Unexpected HTTP 401",
+      "last_http_status": 401
+    }
+  ]
 }

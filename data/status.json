@@ -1,5 +1,61 @@
 {
-  "generated_at": null,
-  "overall_status": "unknown",
-  "apis": []
+  "generated_at": "2026-03-04T16:13:00+00:00",
+  "overall_status": "partial_outage",
+  "apis": [
+    {
+      "name": "Foxcode",
+      "base_url": "https://code.newcli.com/claude/aws",
+      "endpoint": "/chat/completions",
+      "model": "claude-opus-4-6",
+      "status": "degraded",
+      "response_time_ms": 2926,
+      "http_status": 404,
+      "last_checked": "2026-03-04T16:13:00+00:00",
+      "error": "Unexpected HTTP 404"
+    },
+    {
+      "name": "Aiberm",
+      "base_url": "https://aiberm.com",
+      "endpoint": "/chat/completions",
+      "model": "claude-opus-4-6",
+      "status": "down",
+      "response_time_ms": 166,
+      "http_status": 200,
+      "last_checked": "2026-03-04T16:13:03+00:00",
+      "error": "Network error: Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "name": "Aigocode #1",
+      "base_url": "https://api.aigocode.com",
+      "endpoint": "/chat/completions",
+      "model": "claude-opus-4-6",
+      "status": "degraded",
+      "response_time_ms": 258,
+      "http_status": 401,
+      "last_checked": "2026-03-04T16:13:04+00:00",
+      "error": "Unexpected HTTP 401"
+    },
+    {
+      "name": "Aigocode #2",
+      "base_url": "https://api.aigocode.com",
+      "endpoint": "/chat/completions",
+      "model": "claude-opus-4-6",
+      "status": "degraded",
+      "response_time_ms": 80,
+      "http_status": 401,
+      "last_checked": "2026-03-04T16:13:04+00:00",
+      "error": "Unexpected HTTP 401"
+    },
+    {
+      "name": "Aigocode #3",
+      "base_url": "https://api.aigocode.com",
+      "endpoint": "/chat/completions",
+      "model": "claude-opus-4-6",
+      "status": "degraded",
+      "response_time_ms": 186,
+      "http_status": 401,
+      "last_checked": "2026-03-04T16:13:04+00:00",
+      "error": "Unexpected HTTP 401"
+    }
+  ]
 }
