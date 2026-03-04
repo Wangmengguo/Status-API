@@ -29,7 +29,11 @@ jobs:
         run: python checker.py
 
       - name: Commit and push data updates
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update api status data"
-          file_pattern: data/*.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update api status data"
+          git pull --rebase origin main
+          git push
