@@ -23,11 +23,11 @@ apis:
     api_key_env: "AIGOCODE_KEY_2"
     format: "anthropic"
 
-  - name: "Aigocode #3"
-    base_url: "https://api.aigocode.com"
-    model: "claude-opus-4-6"
-    api_key_env: "AIGOCODE_KEY_3"
-    format: "anthropic"
+#  - name: "Aigocode #3"
+#    base_url: "https://api.aigocode.com"
+#    model: "claude-opus-4-6"
+#    api_key_env: "AIGOCODE_KEY_3"
+#    format: "anthropic"
 
 settings:
   check_timeout: 30
