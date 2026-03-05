@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-05T07:28:38+00:00",
+  "generated_at": "2026-03-05T07:59:43+00:00",
   "overall_status": "partial_outage",
   "apis": [
     {
@@ -7,11 +7,11 @@
       "base_url": "https://code.newcli.com/claude/aws",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "up",
-      "response_time_ms": 4725,
-      "http_status": 200,
-      "last_checked": "2026-03-05T07:28:38+00:00",
-      "error": null
+      "status": "down",
+      "response_time_ms": 30796,
+      "http_status": null,
+      "last_checked": "2026-03-05T07:59:43+00:00",
+      "error": "Request timeout"
     },
     {
       "name": "Foxcode-ultra",
@@ -19,21 +19,21 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "down",
-      "response_time_ms": 30191,
-      "http_status": null,
-      "last_checked": "2026-03-05T07:28:43+00:00",
-      "error": "Request timeout"
+      "response_time_ms": 2207,
+      "http_status": 500,
+      "last_checked": "2026-03-05T08:00:14+00:00",
+      "error": "Server error: HTTP 500"
     },
     {
       "name": "Aiberm",
       "base_url": "https://aiberm.com",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "down",
-      "response_time_ms": 30110,
-      "http_status": null,
-      "last_checked": "2026-03-05T07:29:13+00:00",
-      "error": "Request timeout"
+      "status": "up",
+      "response_time_ms": 3107,
+      "http_status": 200,
+      "last_checked": "2026-03-05T08:00:16+00:00",
+      "error": null
     },
     {
       "name": "Aigocode #1",
@@ -41,21 +41,21 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "down",
-      "response_time_ms": 21985,
-      "http_status": 502,
-      "last_checked": "2026-03-05T07:29:43+00:00",
-      "error": "Server error: HTTP 502"
+      "response_time_ms": 584,
+      "http_status": 503,
+      "last_checked": "2026-03-05T08:00:19+00:00",
+      "error": "Server error: HTTP 503"
     },
     {
       "name": "Aigocode #2",
       "base_url": "https://api.aigocode.com",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "down",
-      "response_time_ms": 30061,
-      "http_status": null,
-      "last_checked": "2026-03-05T07:30:05+00:00",
-      "error": "Request timeout"
+      "status": "up",
+      "response_time_ms": 2001,
+      "http_status": 200,
+      "last_checked": "2026-03-05T08:00:20+00:00",
+      "error": null
     }
   ]
 }
