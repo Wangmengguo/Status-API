@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-05T03:11:58+00:00",
+  "generated_at": "2026-03-05T03:28:32+00:00",
   "overall_status": "partial_outage",
   "apis": [
     {
@@ -8,9 +8,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 4634,
+      "response_time_ms": 2758,
       "http_status": 200,
-      "last_checked": "2026-03-05T03:11:58+00:00",
+      "last_checked": "2026-03-05T03:28:32+00:00",
       "error": null
     },
     {
@@ -18,22 +18,22 @@
       "base_url": "https://code.newcli.com/claude/ultra",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "up",
-      "response_time_ms": 1531,
-      "http_status": 200,
-      "last_checked": "2026-03-05T03:12:02+00:00",
-      "error": null
+      "status": "down",
+      "response_time_ms": 30211,
+      "http_status": null,
+      "last_checked": "2026-03-05T03:28:35+00:00",
+      "error": "Request timeout"
     },
     {
       "name": "Aiberm",
       "base_url": "https://aiberm.com",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "down",
-      "response_time_ms": 30168,
-      "http_status": null,
-      "last_checked": "2026-03-05T03:12:04+00:00",
-      "error": "Request timeout"
+      "status": "up",
+      "response_time_ms": 3957,
+      "http_status": 200,
+      "last_checked": "2026-03-05T03:29:05+00:00",
+      "error": null
     },
     {
       "name": "Aigocode #1",
@@ -41,9 +41,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "down",
-      "response_time_ms": 21516,
+      "response_time_ms": 22106,
       "http_status": 502,
-      "last_checked": "2026-03-05T03:12:34+00:00",
+      "last_checked": "2026-03-05T03:29:09+00:00",
       "error": "Server error: HTTP 502"
     },
     {
@@ -52,9 +52,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 2241,
+      "response_time_ms": 20815,
       "http_status": 200,
-      "last_checked": "2026-03-05T03:12:56+00:00",
+      "last_checked": "2026-03-05T03:29:31+00:00",
       "error": null
     }
   ]
