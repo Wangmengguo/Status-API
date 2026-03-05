@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-05T01:42:44+00:00",
+  "generated_at": "2026-03-05T02:27:58+00:00",
   "overall_status": "partial_outage",
   "apis": [
     {
@@ -8,21 +8,32 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 4280,
+      "response_time_ms": 4255,
       "http_status": 200,
-      "last_checked": "2026-03-05T01:42:44+00:00",
+      "last_checked": "2026-03-05T02:27:58+00:00",
       "error": null
+    },
+    {
+      "name": "Foxcode-ultra",
+      "base_url": "https://code.newcli.com/claude/ultra",
+      "endpoint": "/v1/messages",
+      "model": "claude-opus-4-6",
+      "status": "down",
+      "response_time_ms": 30044,
+      "http_status": null,
+      "last_checked": "2026-03-05T02:28:02+00:00",
+      "error": "Request timeout"
     },
     {
       "name": "Aiberm",
       "base_url": "https://aiberm.com",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "up",
-      "response_time_ms": 4165,
-      "http_status": 200,
-      "last_checked": "2026-03-05T01:42:49+00:00",
-      "error": null
+      "status": "down",
+      "response_time_ms": 30112,
+      "http_status": null,
+      "last_checked": "2026-03-05T02:28:32+00:00",
+      "error": "Request timeout"
     },
     {
       "name": "Aigocode #1",
@@ -30,9 +41,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "down",
-      "response_time_ms": 21309,
+      "response_time_ms": 21455,
       "http_status": 502,
-      "last_checked": "2026-03-05T01:42:53+00:00",
+      "last_checked": "2026-03-05T02:29:02+00:00",
       "error": "Server error: HTTP 502"
     },
     {
@@ -41,9 +52,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 1402,
+      "response_time_ms": 3746,
       "http_status": 200,
-      "last_checked": "2026-03-05T01:43:14+00:00",
+      "last_checked": "2026-03-05T02:29:24+00:00",
       "error": null
     }
   ]
