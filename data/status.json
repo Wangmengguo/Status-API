@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-04T16:37:55+00:00",
+  "generated_at": "2026-03-05T00:45:29+00:00",
   "overall_status": "partial_outage",
   "apis": [
     {
@@ -7,11 +7,11 @@
       "base_url": "https://code.newcli.com/claude/aws",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "down",
-      "response_time_ms": 30865,
-      "http_status": null,
-      "last_checked": "2026-03-04T16:37:55+00:00",
-      "error": "Request timeout"
+      "status": "up",
+      "response_time_ms": 4463,
+      "http_status": 200,
+      "last_checked": "2026-03-05T00:45:29+00:00",
+      "error": null
     },
     {
       "name": "Aiberm",
@@ -19,9 +19,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 3049,
+      "response_time_ms": 3058,
       "http_status": 200,
-      "last_checked": "2026-03-04T16:38:26+00:00",
+      "last_checked": "2026-03-05T00:45:33+00:00",
       "error": null
     },
     {
@@ -30,9 +30,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "down",
-      "response_time_ms": 164,
+      "response_time_ms": 21665,
       "http_status": 502,
-      "last_checked": "2026-03-04T16:38:29+00:00",
+      "last_checked": "2026-03-05T00:45:36+00:00",
       "error": "Server error: HTTP 502"
     },
     {
@@ -40,22 +40,11 @@
       "base_url": "https://api.aigocode.com",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "down",
-      "response_time_ms": 10726,
-      "http_status": 502,
-      "last_checked": "2026-03-04T16:38:29+00:00",
-      "error": "Server error: HTTP 502"
-    },
-    {
-      "name": "Aigocode #3",
-      "base_url": "https://api.aigocode.com",
-      "endpoint": "/v1/messages",
-      "model": "claude-opus-4-6",
-      "status": "down",
-      "response_time_ms": 116,
-      "http_status": 502,
-      "last_checked": "2026-03-04T16:38:40+00:00",
-      "error": "Server error: HTTP 502"
+      "status": "up",
+      "response_time_ms": 2213,
+      "http_status": 200,
+      "last_checked": "2026-03-05T00:45:58+00:00",
+      "error": null
     }
   ]
 }
