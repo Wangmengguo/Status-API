@@ -5,6 +5,12 @@ apis:
     api_key_env: "FOXCODE_KEY"
     format: "anthropic"
 
+  - name: "Foxcode-ultra"
+    base_url: "https://code.newcli.com/claude/ultra"
+    model: "claude-opus-4-6"
+    api_key_env: "FOXCODE_ULTRA_KEY"
+    format: "anthropic"
+
   - name: "Aiberm"
     base_url: "https://aiberm.com"
     model: "claude-opus-4-6"
