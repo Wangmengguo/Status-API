@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-05T15:10:44+00:00",
+  "generated_at": "2026-03-05T16:00:48+00:00",
   "overall_status": "partial_outage",
   "apis": [
     {
@@ -8,9 +8,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 3539,
+      "response_time_ms": 3780,
       "http_status": 200,
-      "last_checked": "2026-03-05T15:10:44+00:00",
+      "last_checked": "2026-03-05T16:00:48+00:00",
       "error": null
     },
     {
@@ -18,11 +18,11 @@
       "base_url": "https://code.newcli.com/claude/ultra",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "up",
-      "response_time_ms": 2420,
-      "http_status": 200,
-      "last_checked": "2026-03-05T15:10:48+00:00",
-      "error": null
+      "status": "down",
+      "response_time_ms": 2707,
+      "http_status": 500,
+      "last_checked": "2026-03-05T16:00:51+00:00",
+      "error": "Server error: HTTP 500"
     },
     {
       "name": "Aiberm",
@@ -30,9 +30,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 3411,
+      "response_time_ms": 3334,
       "http_status": 200,
-      "last_checked": "2026-03-05T15:10:50+00:00",
+      "last_checked": "2026-03-05T16:00:54+00:00",
       "error": null
     },
     {
@@ -41,9 +41,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "down",
-      "response_time_ms": 652,
+      "response_time_ms": 634,
       "http_status": 503,
-      "last_checked": "2026-03-05T15:10:54+00:00",
+      "last_checked": "2026-03-05T16:00:57+00:00",
       "error": "Server error: HTTP 503"
     },
     {
@@ -52,9 +52,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 2397,
+      "response_time_ms": 2271,
       "http_status": 200,
-      "last_checked": "2026-03-05T15:10:54+00:00",
+      "last_checked": "2026-03-05T16:00:58+00:00",
       "error": null
     }
   ]
