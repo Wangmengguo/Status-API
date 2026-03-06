@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T05:58:13+00:00",
+  "generated_at": "2026-03-06T06:41:51+00:00",
   "overall_status": "partial_outage",
   "apis": [
     {
@@ -8,9 +8,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 3849,
+      "response_time_ms": 5088,
       "http_status": 200,
-      "last_checked": "2026-03-06T05:58:13+00:00",
+      "last_checked": "2026-03-06T06:41:51+00:00",
       "error": null
     },
     {
@@ -18,11 +18,11 @@
       "base_url": "https://code.newcli.com/claude/ultra",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "down",
-      "response_time_ms": 30251,
-      "http_status": null,
-      "last_checked": "2026-03-06T05:58:17+00:00",
-      "error": "Request timeout"
+      "status": "up",
+      "response_time_ms": 17496,
+      "http_status": 200,
+      "last_checked": "2026-03-06T06:41:56+00:00",
+      "error": null
     },
     {
       "name": "Aiberm",
@@ -30,9 +30,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 2892,
+      "response_time_ms": 3437,
       "http_status": 200,
-      "last_checked": "2026-03-06T05:58:47+00:00",
+      "last_checked": "2026-03-06T06:42:14+00:00",
       "error": null
     },
     {
@@ -41,9 +41,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "down",
-      "response_time_ms": 657,
+      "response_time_ms": 694,
       "http_status": 503,
-      "last_checked": "2026-03-06T05:58:50+00:00",
+      "last_checked": "2026-03-06T06:42:17+00:00",
       "error": "Server error: HTTP 503"
     },
     {
@@ -52,9 +52,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 2346,
+      "response_time_ms": 2446,
       "http_status": 200,
-      "last_checked": "2026-03-06T05:58:51+00:00",
+      "last_checked": "2026-03-06T06:42:18+00:00",
       "error": null
     }
   ]
