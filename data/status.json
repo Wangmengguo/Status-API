@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-07T07:02:56+00:00",
+  "generated_at": "2026-03-07T07:39:43+00:00",
   "overall_status": "partial_outage",
   "apis": [
     {
@@ -8,9 +8,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 3253,
+      "response_time_ms": 5344,
       "http_status": 200,
-      "last_checked": "2026-03-07T07:02:56+00:00",
+      "last_checked": "2026-03-07T07:39:43+00:00",
       "error": null
     },
     {
@@ -18,11 +18,11 @@
       "base_url": "https://code.newcli.com/claude/ultra",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "down",
-      "response_time_ms": 30142,
-      "http_status": null,
-      "last_checked": "2026-03-07T07:02:59+00:00",
-      "error": "Request timeout"
+      "status": "up",
+      "response_time_ms": 22061,
+      "http_status": 200,
+      "last_checked": "2026-03-07T07:39:49+00:00",
+      "error": null
     },
     {
       "name": "Aiberm",
@@ -30,9 +30,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 246,
+      "response_time_ms": 96,
       "http_status": 403,
-      "last_checked": "2026-03-07T07:03:29+00:00",
+      "last_checked": "2026-03-07T07:40:11+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -41,9 +41,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "down",
-      "response_time_ms": 567,
+      "response_time_ms": 686,
       "http_status": 503,
-      "last_checked": "2026-03-07T07:03:29+00:00",
+      "last_checked": "2026-03-07T07:40:11+00:00",
       "error": "Server error: HTTP 503"
     },
     {
@@ -51,11 +51,11 @@
       "base_url": "https://api.aigocode.com",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "down",
-      "response_time_ms": 466,
-      "http_status": 503,
-      "last_checked": "2026-03-07T07:03:30+00:00",
-      "error": "Server error: HTTP 503"
+      "status": "up",
+      "response_time_ms": 2079,
+      "http_status": 200,
+      "last_checked": "2026-03-07T07:40:12+00:00",
+      "error": null
     }
   ]
 }
