@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-07T07:54:08+00:00",
+  "generated_at": "2026-03-07T08:15:32+00:00",
   "overall_status": "partial_outage",
   "apis": [
     {
@@ -8,9 +8,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 3948,
+      "response_time_ms": 3057,
       "http_status": 200,
-      "last_checked": "2026-03-07T07:54:08+00:00",
+      "last_checked": "2026-03-07T08:15:32+00:00",
       "error": null
     },
     {
@@ -18,11 +18,11 @@
       "base_url": "https://code.newcli.com/claude/ultra",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "up",
-      "response_time_ms": 2169,
-      "http_status": 200,
-      "last_checked": "2026-03-07T07:54:12+00:00",
-      "error": null
+      "status": "down",
+      "response_time_ms": 30109,
+      "http_status": null,
+      "last_checked": "2026-03-07T08:15:35+00:00",
+      "error": "Request timeout"
     },
     {
       "name": "Aiberm",
@@ -30,9 +30,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 198,
+      "response_time_ms": 247,
       "http_status": 403,
-      "last_checked": "2026-03-07T07:54:14+00:00",
+      "last_checked": "2026-03-07T08:16:05+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -41,9 +41,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "down",
-      "response_time_ms": 686,
+      "response_time_ms": 591,
       "http_status": 503,
-      "last_checked": "2026-03-07T07:54:14+00:00",
+      "last_checked": "2026-03-07T08:16:06+00:00",
       "error": "Server error: HTTP 503"
     },
     {
@@ -52,9 +52,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 2317,
+      "response_time_ms": 2312,
       "http_status": 200,
-      "last_checked": "2026-03-07T07:54:15+00:00",
+      "last_checked": "2026-03-07T08:16:06+00:00",
       "error": null
     }
   ]
