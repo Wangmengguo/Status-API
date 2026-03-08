@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-08T14:42:00+00:00",
+  "generated_at": "2026-03-08T14:56:22+00:00",
   "overall_status": "partial_outage",
   "apis": [
     {
@@ -8,9 +8,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 3149,
+      "response_time_ms": 3318,
       "http_status": 200,
-      "last_checked": "2026-03-08T14:42:00+00:00",
+      "last_checked": "2026-03-08T14:56:22+00:00",
       "error": null
     },
     {
@@ -19,9 +19,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 27736,
+      "response_time_ms": 12078,
       "http_status": 200,
-      "last_checked": "2026-03-08T14:42:03+00:00",
+      "last_checked": "2026-03-08T14:56:26+00:00",
       "error": null
     },
     {
@@ -30,9 +30,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 249,
+      "response_time_ms": 161,
       "http_status": 403,
-      "last_checked": "2026-03-08T14:42:31+00:00",
+      "last_checked": "2026-03-08T14:56:38+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -41,9 +41,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "down",
-      "response_time_ms": 626,
+      "response_time_ms": 573,
       "http_status": 503,
-      "last_checked": "2026-03-08T14:42:31+00:00",
+      "last_checked": "2026-03-08T14:56:38+00:00",
       "error": "Server error: HTTP 503"
     },
     {
@@ -51,11 +51,11 @@
       "base_url": "https://api.aigocode.com",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "up",
-      "response_time_ms": 2183,
-      "http_status": 200,
-      "last_checked": "2026-03-08T14:42:32+00:00",
-      "error": null
+      "status": "down",
+      "response_time_ms": 30061,
+      "http_status": null,
+      "last_checked": "2026-03-08T14:56:38+00:00",
+      "error": "Request timeout"
     }
   ]
 }
