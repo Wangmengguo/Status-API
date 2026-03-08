@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-08T13:49:13+00:00",
+  "generated_at": "2026-03-08T14:14:02+00:00",
   "overall_status": "partial_outage",
   "apis": [
     {
@@ -8,9 +8,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 3433,
+      "response_time_ms": 3483,
       "http_status": 200,
-      "last_checked": "2026-03-08T13:49:13+00:00",
+      "last_checked": "2026-03-08T14:14:02+00:00",
       "error": null
     },
     {
@@ -19,9 +19,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "down",
-      "response_time_ms": 30063,
+      "response_time_ms": 30150,
       "http_status": null,
-      "last_checked": "2026-03-08T13:49:16+00:00",
+      "last_checked": "2026-03-08T14:14:05+00:00",
       "error": "Request timeout"
     },
     {
@@ -30,9 +30,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 123,
+      "response_time_ms": 128,
       "http_status": 403,
-      "last_checked": "2026-03-08T13:49:46+00:00",
+      "last_checked": "2026-03-08T14:14:36+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -41,9 +41,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "down",
-      "response_time_ms": 551,
+      "response_time_ms": 564,
       "http_status": 503,
-      "last_checked": "2026-03-08T13:49:47+00:00",
+      "last_checked": "2026-03-08T14:14:36+00:00",
       "error": "Server error: HTTP 503"
     },
     {
@@ -51,11 +51,11 @@
       "base_url": "https://api.aigocode.com",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "up",
-      "response_time_ms": 1736,
-      "http_status": 200,
-      "last_checked": "2026-03-08T13:49:47+00:00",
-      "error": null
+      "status": "down",
+      "response_time_ms": 30069,
+      "http_status": null,
+      "last_checked": "2026-03-08T14:14:36+00:00",
+      "error": "Request timeout"
     }
   ]
 }
