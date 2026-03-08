@@ -2655,6 +2655,36 @@
           "response_time_ms": 2740
         }
       ]
+    },
+    {
+      "timestamp": "2026-03-08T11:51:45+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "up",
+          "response_time_ms": 2895
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "up",
+          "response_time_ms": 25716
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 482
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "down",
+          "response_time_ms": 595
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "up",
+          "response_time_ms": 1221
+        }
+      ]
     }
   ],
   "incidents": [
