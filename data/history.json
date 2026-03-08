@@ -2745,9 +2745,49 @@
           "response_time_ms": 2091
         }
       ]
+    },
+    {
+      "timestamp": "2026-03-08T13:49:13+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "up",
+          "response_time_ms": 3433
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "down",
+          "response_time_ms": 30063
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 123
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "down",
+          "response_time_ms": 551
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "up",
+          "response_time_ms": 1736
+        }
+      ]
     }
   ],
   "incidents": [
+    {
+      "id": "9a6b89d3-510a-4074-a985-a1c132750912",
+      "api_name": "Foxcode-ultra",
+      "start_time": "2026-03-08T13:49:13+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "down",
+      "last_error": "Request timeout",
+      "last_http_status": null
+    },
     {
       "id": "37a0f7c3-5a3e-4b30-aa0d-88364d87b325",
       "api_name": "Foxcode-ultra",
