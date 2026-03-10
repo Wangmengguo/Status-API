@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-10T09:05:28+00:00",
+  "generated_at": "2026-03-10T09:58:47+00:00",
   "overall_status": "partial_outage",
   "apis": [
     {
@@ -8,9 +8,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 3729,
+      "response_time_ms": 6602,
       "http_status": 200,
-      "last_checked": "2026-03-10T09:05:28+00:00",
+      "last_checked": "2026-03-10T09:58:47+00:00",
       "error": null
     },
     {
@@ -19,10 +19,10 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "down",
-      "response_time_ms": 2180,
-      "http_status": 500,
-      "last_checked": "2026-03-10T09:05:32+00:00",
-      "error": "Server error: HTTP 500"
+      "response_time_ms": 30126,
+      "http_status": null,
+      "last_checked": "2026-03-10T09:58:54+00:00",
+      "error": "Request timeout"
     },
     {
       "name": "Aiberm",
@@ -30,9 +30,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 143,
+      "response_time_ms": 275,
       "http_status": 403,
-      "last_checked": "2026-03-10T09:05:34+00:00",
+      "last_checked": "2026-03-10T09:59:24+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -41,9 +41,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 744,
+      "response_time_ms": 429,
       "http_status": 403,
-      "last_checked": "2026-03-10T09:05:34+00:00",
+      "last_checked": "2026-03-10T09:59:24+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -52,9 +52,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 1497,
+      "response_time_ms": 382,
       "http_status": 403,
-      "last_checked": "2026-03-10T09:05:35+00:00",
+      "last_checked": "2026-03-10T09:59:25+00:00",
       "error": "Unexpected HTTP 403"
     }
   ]
