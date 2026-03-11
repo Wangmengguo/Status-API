@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-11T09:38:29+00:00",
+  "generated_at": "2026-03-11T10:22:40+00:00",
   "overall_status": "partial_outage",
   "apis": [
     {
@@ -8,9 +8,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "down",
-      "response_time_ms": 30536,
+      "response_time_ms": 30731,
       "http_status": null,
-      "last_checked": "2026-03-11T09:38:29+00:00",
+      "last_checked": "2026-03-11T10:22:40+00:00",
       "error": "Request timeout"
     },
     {
@@ -19,9 +19,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "down",
-      "response_time_ms": 2329,
+      "response_time_ms": 2352,
       "http_status": 500,
-      "last_checked": "2026-03-11T09:39:00+00:00",
+      "last_checked": "2026-03-11T10:23:11+00:00",
       "error": "Server error: HTTP 500"
     },
     {
@@ -30,9 +30,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 247,
+      "response_time_ms": 449,
       "http_status": 403,
-      "last_checked": "2026-03-11T09:39:02+00:00",
+      "last_checked": "2026-03-11T10:23:13+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -40,11 +40,11 @@
       "base_url": "https://api.aigocode.com",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "down",
-      "response_time_ms": 5634,
-      "http_status": 500,
-      "last_checked": "2026-03-11T09:39:03+00:00",
-      "error": "Server error: HTTP 500"
+      "status": "degraded",
+      "response_time_ms": 520,
+      "http_status": 403,
+      "last_checked": "2026-03-11T10:23:14+00:00",
+      "error": "Unexpected HTTP 403"
     },
     {
       "name": "Aigocode #2",
@@ -52,9 +52,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 2158,
+      "response_time_ms": 355,
       "http_status": 403,
-      "last_checked": "2026-03-11T09:39:08+00:00",
+      "last_checked": "2026-03-11T10:23:14+00:00",
       "error": "Unexpected HTTP 403"
     }
   ]
