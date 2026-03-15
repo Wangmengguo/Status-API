@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-03-15T10:53:47+00:00",
-  "overall_status": "partial_outage",
+  "generated_at": "2026-03-15T11:14:59+00:00",
+  "overall_status": "degraded_performance",
   "apis": [
     {
       "name": "Foxcode",
       "base_url": "https://code.newcli.com/claude/aws",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "down",
-      "response_time_ms": 30935,
-      "http_status": null,
-      "last_checked": "2026-03-15T10:53:47+00:00",
-      "error": "Request timeout"
+      "status": "up",
+      "response_time_ms": 3223,
+      "http_status": 200,
+      "last_checked": "2026-03-15T11:14:59+00:00",
+      "error": null
     },
     {
       "name": "Foxcode-ultra",
       "base_url": "https://code.newcli.com/claude/ultra",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "degraded",
-      "response_time_ms": 18416,
-      "http_status": 429,
-      "last_checked": "2026-03-15T10:54:18+00:00",
-      "error": "Unexpected HTTP 429"
+      "status": "up",
+      "response_time_ms": 3110,
+      "http_status": 200,
+      "last_checked": "2026-03-15T11:15:02+00:00",
+      "error": null
     },
     {
       "name": "Aiberm",
@@ -30,9 +30,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 258,
+      "response_time_ms": 465,
       "http_status": 403,
-      "last_checked": "2026-03-15T10:54:36+00:00",
+      "last_checked": "2026-03-15T11:15:05+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -41,9 +41,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 298,
+      "response_time_ms": 247,
       "http_status": 403,
-      "last_checked": "2026-03-15T10:54:36+00:00",
+      "last_checked": "2026-03-15T11:15:06+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -52,9 +52,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 247,
+      "response_time_ms": 254,
       "http_status": 403,
-      "last_checked": "2026-03-15T10:54:37+00:00",
+      "last_checked": "2026-03-15T11:15:06+00:00",
       "error": "Unexpected HTTP 403"
     }
   ]
