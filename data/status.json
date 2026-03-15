@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-15T04:05:14+00:00",
+  "generated_at": "2026-03-15T05:42:32+00:00",
   "overall_status": "degraded_performance",
   "apis": [
     {
@@ -8,9 +8,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 2720,
+      "response_time_ms": 3436,
       "http_status": 200,
-      "last_checked": "2026-03-15T04:05:14+00:00",
+      "last_checked": "2026-03-15T05:42:32+00:00",
       "error": null
     },
     {
@@ -18,11 +18,11 @@
       "base_url": "https://code.newcli.com/claude/ultra",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "degraded",
-      "response_time_ms": 2343,
-      "http_status": 429,
-      "last_checked": "2026-03-15T04:05:17+00:00",
-      "error": "Unexpected HTTP 429"
+      "status": "up",
+      "response_time_ms": 1744,
+      "http_status": 200,
+      "last_checked": "2026-03-15T05:42:35+00:00",
+      "error": null
     },
     {
       "name": "Aiberm",
@@ -30,9 +30,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 197,
+      "response_time_ms": 461,
       "http_status": 403,
-      "last_checked": "2026-03-15T04:05:19+00:00",
+      "last_checked": "2026-03-15T05:42:37+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -41,9 +41,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 361,
+      "response_time_ms": 460,
       "http_status": 403,
-      "last_checked": "2026-03-15T04:05:19+00:00",
+      "last_checked": "2026-03-15T05:42:37+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -54,7 +54,7 @@
       "status": "degraded",
       "response_time_ms": 359,
       "http_status": 403,
-      "last_checked": "2026-03-15T04:05:20+00:00",
+      "last_checked": "2026-03-15T05:42:38+00:00",
       "error": "Unexpected HTTP 403"
     }
   ]
