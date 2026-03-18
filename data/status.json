@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T03:48:33+00:00",
+  "generated_at": "2026-03-18T05:20:19+00:00",
   "overall_status": "degraded_performance",
   "apis": [
     {
@@ -8,9 +8,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 2895,
+      "response_time_ms": 3098,
       "http_status": 200,
-      "last_checked": "2026-03-18T03:48:33+00:00",
+      "last_checked": "2026-03-18T05:20:19+00:00",
       "error": null
     },
     {
@@ -19,10 +19,10 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 3462,
-      "http_status": 400,
-      "last_checked": "2026-03-18T03:48:36+00:00",
-      "error": "Unexpected HTTP 400"
+      "response_time_ms": 9635,
+      "http_status": 429,
+      "last_checked": "2026-03-18T05:20:22+00:00",
+      "error": "Unexpected HTTP 429"
     },
     {
       "name": "Aiberm",
@@ -30,9 +30,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 237,
+      "response_time_ms": 120,
       "http_status": 403,
-      "last_checked": "2026-03-18T03:48:40+00:00",
+      "last_checked": "2026-03-18T05:20:31+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -41,9 +41,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 353,
+      "response_time_ms": 288,
       "http_status": 403,
-      "last_checked": "2026-03-18T03:48:40+00:00",
+      "last_checked": "2026-03-18T05:20:31+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -52,9 +52,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 279,
+      "response_time_ms": 447,
       "http_status": 403,
-      "last_checked": "2026-03-18T03:48:40+00:00",
+      "last_checked": "2026-03-18T05:20:32+00:00",
       "error": "Unexpected HTTP 403"
     }
   ]
