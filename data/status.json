@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-21T11:12:54+00:00",
-  "overall_status": "partial_outage",
+  "generated_at": "2026-03-21T11:34:48+00:00",
+  "overall_status": "degraded_performance",
   "apis": [
     {
       "name": "Foxcode",
       "base_url": "https://code.newcli.com/claude/aws",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "down",
-      "response_time_ms": 3042,
-      "http_status": 500,
-      "last_checked": "2026-03-21T11:12:54+00:00",
-      "error": "Server error: HTTP 500"
+      "status": "up",
+      "response_time_ms": 4616,
+      "http_status": 200,
+      "last_checked": "2026-03-21T11:34:48+00:00",
+      "error": null
     },
     {
       "name": "Foxcode-ultra",
@@ -19,9 +19,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 5115,
+      "response_time_ms": 2747,
       "http_status": 200,
-      "last_checked": "2026-03-21T11:12:57+00:00",
+      "last_checked": "2026-03-21T11:34:53+00:00",
       "error": null
     },
     {
@@ -30,9 +30,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 375,
+      "response_time_ms": 301,
       "http_status": 403,
-      "last_checked": "2026-03-21T11:13:02+00:00",
+      "last_checked": "2026-03-21T11:34:56+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -41,9 +41,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 298,
+      "response_time_ms": 419,
       "http_status": 403,
-      "last_checked": "2026-03-21T11:13:02+00:00",
+      "last_checked": "2026-03-21T11:34:56+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -52,9 +52,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 205,
+      "response_time_ms": 325,
       "http_status": 403,
-      "last_checked": "2026-03-21T11:13:03+00:00",
+      "last_checked": "2026-03-21T11:34:56+00:00",
       "error": "Unexpected HTTP 403"
     }
   ]
