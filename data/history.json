@@ -17115,6 +17115,36 @@
           "response_time_ms": 220
         }
       ]
+    },
+    {
+      "timestamp": "2026-04-07T05:53:53+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "degraded",
+          "response_time_ms": 828
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "up",
+          "response_time_ms": 6245
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 196
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 401
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 349
+        }
+      ]
     }
   ],
   "incidents": [
