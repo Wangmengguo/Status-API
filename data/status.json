@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-07T07:35:57+00:00",
-  "overall_status": "partial_outage",
+  "generated_at": "2026-05-07T10:05:51+00:00",
+  "overall_status": "degraded_performance",
   "apis": [
     {
       "name": "Foxcode",
       "base_url": "https://code.newcli.com/claude/aws",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "down",
-      "response_time_ms": 30841,
-      "http_status": null,
-      "last_checked": "2026-05-07T07:35:57+00:00",
-      "error": "Request timeout"
+      "status": "up",
+      "response_time_ms": 3139,
+      "http_status": 200,
+      "last_checked": "2026-05-07T10:05:51+00:00",
+      "error": null
     },
     {
       "name": "Foxcode-ultra",
@@ -19,9 +19,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 1869,
+      "response_time_ms": 4046,
       "http_status": 200,
-      "last_checked": "2026-05-07T07:36:28+00:00",
+      "last_checked": "2026-05-07T10:05:54+00:00",
       "error": null
     },
     {
@@ -32,7 +32,7 @@
       "status": "degraded",
       "response_time_ms": 201,
       "http_status": 403,
-      "last_checked": "2026-05-07T07:36:30+00:00",
+      "last_checked": "2026-05-07T10:05:58+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -41,9 +41,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 384,
+      "response_time_ms": 418,
       "http_status": 403,
-      "last_checked": "2026-05-07T07:36:30+00:00",
+      "last_checked": "2026-05-07T10:05:59+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -52,9 +52,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 353,
+      "response_time_ms": 330,
       "http_status": 403,
-      "last_checked": "2026-05-07T07:36:30+00:00",
+      "last_checked": "2026-05-07T10:05:59+00:00",
       "error": "Unexpected HTTP 403"
     }
   ]
