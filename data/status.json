@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T09:34:24+00:00",
+  "generated_at": "2026-05-21T12:33:26+00:00",
   "overall_status": "degraded_performance",
   "apis": [
     {
@@ -8,9 +8,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 3524,
+      "response_time_ms": 3582,
       "http_status": 200,
-      "last_checked": "2026-05-21T09:34:24+00:00",
+      "last_checked": "2026-05-21T12:33:26+00:00",
       "error": null
     },
     {
@@ -19,9 +19,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 2223,
+      "response_time_ms": 1759,
       "http_status": 200,
-      "last_checked": "2026-05-21T09:34:27+00:00",
+      "last_checked": "2026-05-21T12:33:30+00:00",
       "error": null
     },
     {
@@ -30,9 +30,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 256,
+      "response_time_ms": 127,
       "http_status": 403,
-      "last_checked": "2026-05-21T09:34:29+00:00",
+      "last_checked": "2026-05-21T12:33:32+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -41,9 +41,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 318,
+      "response_time_ms": 314,
       "http_status": 403,
-      "last_checked": "2026-05-21T09:34:30+00:00",
+      "last_checked": "2026-05-21T12:33:32+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -52,9 +52,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 316,
+      "response_time_ms": 277,
       "http_status": 403,
-      "last_checked": "2026-05-21T09:34:30+00:00",
+      "last_checked": "2026-05-21T12:33:32+00:00",
       "error": "Unexpected HTTP 403"
     }
   ]
