@@ -2,36 +2,6 @@
   "retention_days": 90,
   "checks": [
     {
-      "timestamp": "2026-03-06T01:04:12+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "up",
-          "response_time_ms": 11590
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 2026
-        },
-        {
-          "name": "Aiberm",
-          "status": "up",
-          "response_time_ms": 3828
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "down",
-          "response_time_ms": 510
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "up",
-          "response_time_ms": 2571
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-06T03:35:43+00:00",
       "results": [
         {
@@ -31800,6 +31770,36 @@
           "response_time_ms": 227
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-04T02:16:04+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "up",
+          "response_time_ms": 2507
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "up",
+          "response_time_ms": 4056
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 215
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 429
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 339
+        }
+      ]
     }
   ],
   "incidents": [
@@ -31807,21 +31807,23 @@
       "id": "af914914-d552-48d6-899f-346eb3515cda",
       "api_name": "Foxcode",
       "start_time": "2026-06-03T17:23:27+00:00",
-      "end_time": null,
-      "status": "open",
+      "end_time": "2026-06-04T02:16:04+00:00",
+      "status": "resolved",
       "severity": "down",
-      "last_error": "Request timeout",
-      "last_http_status": null
+      "last_error": null,
+      "last_http_status": 200,
+      "duration_minutes": 532
     },
     {
       "id": "3c0343d3-f66b-4065-8c30-59e31bf10df5",
       "api_name": "Foxcode-ultra",
       "start_time": "2026-06-03T17:23:27+00:00",
-      "end_time": null,
-      "status": "open",
+      "end_time": "2026-06-04T02:16:04+00:00",
+      "status": "resolved",
       "severity": "down",
-      "last_error": "Request timeout",
-      "last_http_status": null
+      "last_error": null,
+      "last_http_status": 200,
+      "duration_minutes": 532
     },
     {
       "id": "8ce546e0-f89a-4d7f-a6fa-800991778792",
