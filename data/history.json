@@ -2,36 +2,6 @@
   "retention_days": 90,
   "checks": [
     {
-      "timestamp": "2026-03-13T00:58:14+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "up",
-          "response_time_ms": 6384
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "down",
-          "response_time_ms": 14299
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 263
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 324
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 359
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-13T03:26:34+00:00",
       "results": [
         {
@@ -28860,9 +28830,49 @@
           "response_time_ms": 491
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-11T02:10:09+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "up",
+          "response_time_ms": 2737
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "down",
+          "response_time_ms": 30193
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 306
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 260
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 222
+        }
+      ]
     }
   ],
   "incidents": [
+    {
+      "id": "82dfc3b6-db1d-435b-a991-d57318116737",
+      "api_name": "Foxcode-ultra",
+      "start_time": "2026-06-11T02:10:09+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "down",
+      "last_error": "Request timeout",
+      "last_http_status": null
+    },
     {
       "id": "96caed0b-4fcf-4fb9-8958-f08f586e2021",
       "api_name": "Foxcode-ultra",
