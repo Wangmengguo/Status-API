@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T02:38:42+00:00",
+  "generated_at": "2026-06-19T08:17:57+00:00",
   "overall_status": "degraded_performance",
   "apis": [
     {
@@ -7,22 +7,22 @@
       "base_url": "https://code.newcli.com/claude/aws",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "degraded",
-      "response_time_ms": 2753,
-      "http_status": 429,
-      "last_checked": "2026-06-19T02:38:42+00:00",
-      "error": "Unexpected HTTP 429"
+      "status": "up",
+      "response_time_ms": 2111,
+      "http_status": 200,
+      "last_checked": "2026-06-19T08:17:57+00:00",
+      "error": null
     },
     {
       "name": "Foxcode-ultra",
       "base_url": "https://code.newcli.com/claude/ultra",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "degraded",
-      "response_time_ms": 2359,
-      "http_status": 429,
-      "last_checked": "2026-06-19T02:38:45+00:00",
-      "error": "Unexpected HTTP 429"
+      "status": "up",
+      "response_time_ms": 1654,
+      "http_status": 200,
+      "last_checked": "2026-06-19T08:17:59+00:00",
+      "error": null
     },
     {
       "name": "Aiberm",
@@ -30,9 +30,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 557,
+      "response_time_ms": 366,
       "http_status": 403,
-      "last_checked": "2026-06-19T02:38:47+00:00",
+      "last_checked": "2026-06-19T08:18:01+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -41,9 +41,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 322,
+      "response_time_ms": 263,
       "http_status": 403,
-      "last_checked": "2026-06-19T02:38:48+00:00",
+      "last_checked": "2026-06-19T08:18:01+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -52,9 +52,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 307,
+      "response_time_ms": 287,
       "http_status": 403,
-      "last_checked": "2026-06-19T02:38:48+00:00",
+      "last_checked": "2026-06-19T08:18:02+00:00",
       "error": "Unexpected HTTP 403"
     }
   ]
