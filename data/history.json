@@ -2,36 +2,6 @@
   "retention_days": 90,
   "checks": [
     {
-      "timestamp": "2026-03-21T00:56:02+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "up",
-          "response_time_ms": 3703
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 3140
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 247
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 350
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 314
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-21T03:14:00+00:00",
       "results": [
         {
@@ -25950,9 +25920,59 @@
           "response_time_ms": 283
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-19T02:38:42+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "degraded",
+          "response_time_ms": 2753
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "degraded",
+          "response_time_ms": 2359
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 557
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 322
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 307
+        }
+      ]
     }
   ],
   "incidents": [
+    {
+      "id": "cf97be33-8f2d-41bd-b4a1-116a8e21dd29",
+      "api_name": "Foxcode",
+      "start_time": "2026-06-19T02:38:42+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "degraded",
+      "last_error": "Unexpected HTTP 429",
+      "last_http_status": 429
+    },
+    {
+      "id": "61a797dc-d23c-48c5-b205-09610a416ab5",
+      "api_name": "Foxcode-ultra",
+      "start_time": "2026-06-19T02:38:42+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "degraded",
+      "last_error": "Unexpected HTTP 429",
+      "last_http_status": 429
+    },
     {
       "id": "966bd09f-9715-4976-8f64-6555024b5e80",
       "api_name": "Foxcode",
