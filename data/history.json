@@ -2,96 +2,6 @@
   "retention_days": 90,
   "checks": [
     {
-      "timestamp": "2026-03-23T03:50:47+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "degraded",
-          "response_time_ms": 865
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 2892
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 318
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 295
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 214
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-23T05:25:03+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "degraded",
-          "response_time_ms": 1000
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 2830
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 207
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 389
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 347
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-03-23T06:44:03+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "degraded",
-          "response_time_ms": 869
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 3613
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 378
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 304
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 212
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-23T07:47:31+00:00",
       "results": [
         {
@@ -24840,6 +24750,36 @@
           "response_time_ms": 324
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-21T07:05:14+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "up",
+          "response_time_ms": 3430
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "up",
+          "response_time_ms": 1659
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 301
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 508
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 361
+        }
+      ]
     }
   ],
   "incidents": [
@@ -24847,21 +24787,23 @@
       "id": "a9692b30-5dcd-4c3a-9711-47c156668277",
       "api_name": "Foxcode",
       "start_time": "2026-06-21T02:12:08+00:00",
-      "end_time": null,
-      "status": "open",
+      "end_time": "2026-06-21T07:05:14+00:00",
+      "status": "resolved",
       "severity": "down",
-      "last_error": "Network error: HTTPSConnectionPool(host='code.newcli.com', port=443): Max retries exceeded with url: /claude/aws/v1/messages (Caused by NameResolutionError(\"HTTPSConnection(host='code.newcli.com', port=443): Failed to resolve 'code.newcli.com' ([Errno -3] Temporary failure in name resolution)\"))",
-      "last_http_status": null
+      "last_error": null,
+      "last_http_status": 200,
+      "duration_minutes": 293
     },
     {
       "id": "c45aa77e-c9c7-41b4-ab7a-e8a9b3298949",
       "api_name": "Foxcode-ultra",
       "start_time": "2026-06-21T02:12:08+00:00",
-      "end_time": null,
-      "status": "open",
+      "end_time": "2026-06-21T07:05:14+00:00",
+      "status": "resolved",
       "severity": "down",
-      "last_error": "Network error: HTTPSConnectionPool(host='code.newcli.com', port=443): Max retries exceeded with url: /claude/ultra/v1/messages (Caused by NameResolutionError(\"HTTPSConnection(host='code.newcli.com', port=443): Failed to resolve 'code.newcli.com' ([Errno -3] Temporary failure in name resolution)\"))",
-      "last_http_status": null
+      "last_error": null,
+      "last_http_status": 200,
+      "duration_minutes": 293
     },
     {
       "id": "13a10607-874d-43bf-b867-513fbcc30727",
