@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-06-20T16:57:15+00:00",
-  "overall_status": "degraded_performance",
+  "generated_at": "2026-06-21T02:12:08+00:00",
+  "overall_status": "partial_outage",
   "apis": [
     {
       "name": "Foxcode",
       "base_url": "https://code.newcli.com/claude/aws",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "up",
-      "response_time_ms": 2300,
-      "http_status": 200,
-      "last_checked": "2026-06-20T16:57:15+00:00",
-      "error": null
+      "status": "down",
+      "response_time_ms": 953,
+      "http_status": null,
+      "last_checked": "2026-06-21T02:12:08+00:00",
+      "error": "Network error: HTTPSConnectionPool(host='code.newcli.com', port=443): Max retries exceeded with url: /claude/aws/v1/messages (Caused by NameResolutionError(\"HTTPSConnection(host='code.newcli.com', port=443): Failed to resolve 'code.newcli.com' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     {
       "name": "Foxcode-ultra",
       "base_url": "https://code.newcli.com/claude/ultra",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "up",
-      "response_time_ms": 1502,
-      "http_status": 200,
-      "last_checked": "2026-06-20T16:57:17+00:00",
-      "error": null
+      "status": "down",
+      "response_time_ms": 130,
+      "http_status": null,
+      "last_checked": "2026-06-21T02:12:09+00:00",
+      "error": "Network error: HTTPSConnectionPool(host='code.newcli.com', port=443): Max retries exceeded with url: /claude/ultra/v1/messages (Caused by NameResolutionError(\"HTTPSConnection(host='code.newcli.com', port=443): Failed to resolve 'code.newcli.com' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     {
       "name": "Aiberm",
@@ -30,9 +30,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 294,
+      "response_time_ms": 321,
       "http_status": 403,
-      "last_checked": "2026-06-20T16:57:19+00:00",
+      "last_checked": "2026-06-21T02:12:09+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -41,9 +41,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 447,
+      "response_time_ms": 335,
       "http_status": 403,
-      "last_checked": "2026-06-20T16:57:19+00:00",
+      "last_checked": "2026-06-21T02:12:10+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -52,9 +52,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 370,
+      "response_time_ms": 324,
       "http_status": 403,
-      "last_checked": "2026-06-20T16:57:20+00:00",
+      "last_checked": "2026-06-21T02:12:10+00:00",
       "error": "Unexpected HTTP 403"
     }
   ]

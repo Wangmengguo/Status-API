@@ -2,36 +2,6 @@
   "retention_days": 90,
   "checks": [
     {
-      "timestamp": "2026-03-23T01:04:24+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "degraded",
-          "response_time_ms": 701
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 4795
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 402
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 280
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 240
-        }
-      ]
-    },
-    {
       "timestamp": "2026-03-23T03:50:47+00:00",
       "results": [
         {
@@ -24840,9 +24810,59 @@
           "response_time_ms": 370
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-21T02:12:08+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "down",
+          "response_time_ms": 953
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "down",
+          "response_time_ms": 130
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 321
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 335
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 324
+        }
+      ]
     }
   ],
   "incidents": [
+    {
+      "id": "a9692b30-5dcd-4c3a-9711-47c156668277",
+      "api_name": "Foxcode",
+      "start_time": "2026-06-21T02:12:08+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "down",
+      "last_error": "Network error: HTTPSConnectionPool(host='code.newcli.com', port=443): Max retries exceeded with url: /claude/aws/v1/messages (Caused by NameResolutionError(\"HTTPSConnection(host='code.newcli.com', port=443): Failed to resolve 'code.newcli.com' ([Errno -3] Temporary failure in name resolution)\"))",
+      "last_http_status": null
+    },
+    {
+      "id": "c45aa77e-c9c7-41b4-ab7a-e8a9b3298949",
+      "api_name": "Foxcode-ultra",
+      "start_time": "2026-06-21T02:12:08+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "down",
+      "last_error": "Network error: HTTPSConnectionPool(host='code.newcli.com', port=443): Max retries exceeded with url: /claude/ultra/v1/messages (Caused by NameResolutionError(\"HTTPSConnection(host='code.newcli.com', port=443): Failed to resolve 'code.newcli.com' ([Errno -3] Temporary failure in name resolution)\"))",
+      "last_http_status": null
+    },
     {
       "id": "13a10607-874d-43bf-b867-513fbcc30727",
       "api_name": "Foxcode-ultra",
