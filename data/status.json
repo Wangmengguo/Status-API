@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T07:44:58+00:00",
+  "generated_at": "2026-06-22T13:17:17+00:00",
   "overall_status": "degraded_performance",
   "apis": [
     {
@@ -8,9 +8,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "up",
-      "response_time_ms": 2592,
+      "response_time_ms": 3358,
       "http_status": 200,
-      "last_checked": "2026-06-22T07:44:58+00:00",
+      "last_checked": "2026-06-22T13:17:17+00:00",
       "error": null
     },
     {
@@ -18,11 +18,11 @@
       "base_url": "https://code.newcli.com/claude/ultra",
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
-      "status": "up",
-      "response_time_ms": 1703,
-      "http_status": 200,
-      "last_checked": "2026-06-22T07:45:01+00:00",
-      "error": null
+      "status": "degraded",
+      "response_time_ms": 2220,
+      "http_status": 429,
+      "last_checked": "2026-06-22T13:17:21+00:00",
+      "error": "Unexpected HTTP 429"
     },
     {
       "name": "Aiberm",
@@ -30,9 +30,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 107,
+      "response_time_ms": 314,
       "http_status": 403,
-      "last_checked": "2026-06-22T07:45:03+00:00",
+      "last_checked": "2026-06-22T13:17:23+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -41,9 +41,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 496,
+      "response_time_ms": 395,
       "http_status": 403,
-      "last_checked": "2026-06-22T07:45:03+00:00",
+      "last_checked": "2026-06-22T13:17:23+00:00",
       "error": "Unexpected HTTP 403"
     },
     {
@@ -52,9 +52,9 @@
       "endpoint": "/v1/messages",
       "model": "claude-opus-4-6",
       "status": "degraded",
-      "response_time_ms": 318,
+      "response_time_ms": 306,
       "http_status": 403,
-      "last_checked": "2026-06-22T07:45:03+00:00",
+      "last_checked": "2026-06-22T13:17:24+00:00",
       "error": "Unexpected HTTP 403"
     }
   ]
