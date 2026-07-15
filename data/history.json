@@ -2,36 +2,6 @@
   "retention_days": 90,
   "checks": [
     {
-      "timestamp": "2026-04-16T09:45:07+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "degraded",
-          "response_time_ms": 589
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 15751
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 360
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 255
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 250
-        }
-      ]
-    },
-    {
       "timestamp": "2026-04-16T10:48:33+00:00",
       "results": [
         {
@@ -19830,9 +19800,49 @@
           "response_time_ms": 892
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-15T10:43:47+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "degraded",
+          "response_time_ms": 15976
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "up",
+          "response_time_ms": 1453
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 298
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 382
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 317
+        }
+      ]
     }
   ],
   "incidents": [
+    {
+      "id": "a2478c7a-ec21-4e00-92ec-3f5352f8132a",
+      "api_name": "Foxcode",
+      "start_time": "2026-07-15T10:43:47+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "degraded",
+      "last_error": "Unexpected HTTP 429",
+      "last_http_status": 429
+    },
     {
       "id": "bcd695f7-f2d6-4361-b7e5-fde2f166a62a",
       "api_name": "Foxcode-ultra",
