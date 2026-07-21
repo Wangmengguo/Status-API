@@ -2,36 +2,6 @@
   "retention_days": 90,
   "checks": [
     {
-      "timestamp": "2026-04-22T04:17:10+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "degraded",
-          "response_time_ms": 830
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "down",
-          "response_time_ms": 30158
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 248
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 411
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 324
-        }
-      ]
-    },
-    {
       "timestamp": "2026-04-22T06:16:05+00:00",
       "results": [
         {
@@ -19380,9 +19350,49 @@
           "response_time_ms": 358
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-21T04:38:38+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "down",
+          "response_time_ms": 31370
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "up",
+          "response_time_ms": 1679
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 207
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 390
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 351
+        }
+      ]
     }
   ],
   "incidents": [
+    {
+      "id": "4909c7eb-3235-4106-bc31-712a076f5f71",
+      "api_name": "Foxcode",
+      "start_time": "2026-07-21T04:38:38+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "down",
+      "last_error": "Request timeout",
+      "last_http_status": null
+    },
     {
       "id": "13c804ef-b10d-4bf5-890e-274cde76b22e",
       "api_name": "Foxcode-ultra",
