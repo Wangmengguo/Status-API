@@ -2,36 +2,6 @@
   "retention_days": 90,
   "checks": [
     {
-      "timestamp": "2026-05-20T01:55:45+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "up",
-          "response_time_ms": 3434
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 1891
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 256
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 354
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 313
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-20T05:56:13+00:00",
       "results": [
         {
@@ -22350,9 +22320,49 @@
           "response_time_ms": 220
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-18T02:45:21+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "degraded",
+          "response_time_ms": 3101
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "degraded",
+          "response_time_ms": 2450
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 218
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 408
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 357
+        }
+      ]
     }
   ],
   "incidents": [
+    {
+      "id": "c16e87be-4e1b-48f2-99ea-790c4b9180d9",
+      "api_name": "Foxcode-ultra",
+      "start_time": "2026-08-18T02:45:21+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "degraded",
+      "last_error": "Unexpected HTTP 429",
+      "last_http_status": 429
+    },
     {
       "id": "d685d832-07af-47c8-92ff-208210a91300",
       "api_name": "Foxcode",
