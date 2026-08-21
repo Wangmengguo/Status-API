@@ -2,36 +2,6 @@
   "retention_days": 90,
   "checks": [
     {
-      "timestamp": "2026-05-23T09:29:26+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "degraded",
-          "response_time_ms": 2962
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 1525
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 127
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 296
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 274
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-23T10:51:45+00:00",
       "results": [
         {
@@ -24298,6 +24268,36 @@
           "name": "Aigocode #2",
           "status": "degraded",
           "response_time_ms": 465
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-21T09:49:08+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "up",
+          "response_time_ms": 3834
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "up",
+          "response_time_ms": 1870
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 299
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 273
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 228
         }
       ]
     }
