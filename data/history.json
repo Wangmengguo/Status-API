@@ -2,36 +2,6 @@
   "retention_days": 90,
   "checks": [
     {
-      "timestamp": "2026-05-24T05:50:27+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "up",
-          "response_time_ms": 3583
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 1378
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 122
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 430
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 263
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-24T08:11:22+00:00",
       "results": [
         {
@@ -24690,18 +24660,59 @@
           "response_time_ms": 223
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-22T05:59:05+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "degraded",
+          "response_time_ms": 2869
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "up",
+          "response_time_ms": 8758
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 247
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 380
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 328
+        }
+      ]
     }
   ],
   "incidents": [
     {
+      "id": "7aa79c66-e9fe-407e-8cc4-3c82d5f38894",
+      "api_name": "Foxcode",
+      "start_time": "2026-08-22T05:59:05+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "degraded",
+      "last_error": "Unexpected HTTP 429",
+      "last_http_status": 429
+    },
+    {
       "id": "77164c2f-6f49-476c-b842-6ef1ecbaf70f",
       "api_name": "Foxcode-ultra",
       "start_time": "2026-08-22T05:41:47+00:00",
-      "end_time": null,
-      "status": "open",
+      "end_time": "2026-08-22T05:59:05+00:00",
+      "status": "resolved",
       "severity": "down",
-      "last_error": "Request timeout",
-      "last_http_status": null
+      "last_error": null,
+      "last_http_status": 200,
+      "duration_minutes": 17
     },
     {
       "id": "f8ecbce3-c0c4-4161-be56-fdcf756cb62a",
