@@ -25110,18 +25110,59 @@
           "response_time_ms": 180
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-22T14:08:38+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "up",
+          "response_time_ms": 3469
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "down",
+          "response_time_ms": 2945
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 246
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 415
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 360
+        }
+      ]
     }
   ],
   "incidents": [
     {
+      "id": "0d65ab41-a1f2-426f-a2f1-ff9ed795045a",
+      "api_name": "Foxcode-ultra",
+      "start_time": "2026-08-22T14:08:38+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "down",
+      "last_error": "Server error: HTTP 502",
+      "last_http_status": 502
+    },
+    {
       "id": "2196261b-f057-4259-a2c9-d6a5e817bb1f",
       "api_name": "Foxcode",
       "start_time": "2026-08-22T12:58:04+00:00",
-      "end_time": null,
-      "status": "open",
+      "end_time": "2026-08-22T14:08:38+00:00",
+      "status": "resolved",
       "severity": "degraded",
-      "last_error": "Unexpected HTTP 429",
-      "last_http_status": 429
+      "last_error": null,
+      "last_http_status": 200,
+      "duration_minutes": 70
     },
     {
       "id": "bc4d9296-f032-4b90-a010-1cfb35d549c7",
