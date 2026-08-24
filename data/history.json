@@ -2,36 +2,6 @@
   "retention_days": 90,
   "checks": [
     {
-      "timestamp": "2026-05-25T16:13:03+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "up",
-          "response_time_ms": 3773
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 1713
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 259
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 445
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 312
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-26T01:52:05+00:00",
       "results": [
         {
@@ -26010,9 +25980,49 @@
           "response_time_ms": 327
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-24T00:28:08+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "degraded",
+          "response_time_ms": 3196
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "up",
+          "response_time_ms": 2447
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 123
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 555
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 253
+        }
+      ]
     }
   ],
   "incidents": [
+    {
+      "id": "e6f431d4-d7a3-4c83-8d9d-1150641ba3bb",
+      "api_name": "Foxcode",
+      "start_time": "2026-08-24T00:28:08+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "degraded",
+      "last_error": "Unexpected HTTP 429",
+      "last_http_status": 429
+    },
     {
       "id": "eb7040b3-cde4-4333-9b80-87f0d04cde87",
       "api_name": "Foxcode",
