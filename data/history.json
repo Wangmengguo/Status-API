@@ -2,36 +2,6 @@
   "retention_days": 90,
   "checks": [
     {
-      "timestamp": "2026-05-26T16:22:42+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "up",
-          "response_time_ms": 3978
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 1748
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 147
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 344
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 272
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-27T01:59:40+00:00",
       "results": [
         {
@@ -26490,6 +26460,36 @@
           "response_time_ms": 334
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-25T00:28:06+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "up",
+          "response_time_ms": 5105
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "up",
+          "response_time_ms": 2516
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 171
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 315
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 282
+        }
+      ]
     }
   ],
   "incidents": [
@@ -26508,11 +26508,12 @@
       "id": "e6f431d4-d7a3-4c83-8d9d-1150641ba3bb",
       "api_name": "Foxcode",
       "start_time": "2026-08-24T00:28:08+00:00",
-      "end_time": null,
-      "status": "open",
+      "end_time": "2026-08-25T00:28:06+00:00",
+      "status": "resolved",
       "severity": "degraded",
-      "last_error": "Unexpected HTTP 429",
-      "last_http_status": 429
+      "last_error": null,
+      "last_http_status": 200,
+      "duration_minutes": 1439
     },
     {
       "id": "eb7040b3-cde4-4333-9b80-87f0d04cde87",
