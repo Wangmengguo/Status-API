@@ -2,36 +2,6 @@
   "retention_days": 90,
   "checks": [
     {
-      "timestamp": "2026-06-05T10:28:12+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "up",
-          "response_time_ms": 3079
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 2399
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 143
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 290
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 429
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-05T13:32:18+00:00",
       "results": [
         {
@@ -27060,9 +27030,49 @@
           "response_time_ms": 628
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-03T11:29:39+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "degraded",
+          "response_time_ms": 2498
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "up",
+          "response_time_ms": 2696
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 132
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 579
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 498
+        }
+      ]
     }
   ],
   "incidents": [
+    {
+      "id": "84ca705d-e9fa-4365-912d-ede1d653f1d2",
+      "api_name": "Foxcode",
+      "start_time": "2026-09-03T11:29:39+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "degraded",
+      "last_error": "Unexpected HTTP 429",
+      "last_http_status": 429
+    },
     {
       "id": "6a5a3560-c7e5-44fb-8326-092ed3b6b3cd",
       "api_name": "Foxcode-ultra",
