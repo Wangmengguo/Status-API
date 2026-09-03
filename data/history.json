@@ -2,36 +2,6 @@
   "retention_days": 90,
   "checks": [
     {
-      "timestamp": "2026-06-05T13:32:18+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "up",
-          "response_time_ms": 2410
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 12505
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 319
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 293
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 257
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-05T16:15:48+00:00",
       "results": [
         {
@@ -27060,9 +27030,49 @@
           "response_time_ms": 498
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-03T15:05:30+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "degraded",
+          "response_time_ms": 2532
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "down",
+          "response_time_ms": 30106
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 310
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 1217
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 993
+        }
+      ]
     }
   ],
   "incidents": [
+    {
+      "id": "05fa8276-739c-4444-a992-a522ee202e33",
+      "api_name": "Foxcode-ultra",
+      "start_time": "2026-09-03T15:05:30+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "down",
+      "last_error": "Request timeout",
+      "last_http_status": null
+    },
     {
       "id": "84ca705d-e9fa-4365-912d-ede1d653f1d2",
       "api_name": "Foxcode",
