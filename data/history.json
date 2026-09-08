@@ -2,36 +2,6 @@
   "retention_days": 90,
   "checks": [
     {
-      "timestamp": "2026-06-10T13:57:40+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "up",
-          "response_time_ms": 2905
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 2238
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 262
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 372
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 315
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-10T16:54:45+00:00",
       "results": [
         {
@@ -26850,9 +26820,49 @@
           "response_time_ms": 190
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-08T15:18:23+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "up",
+          "response_time_ms": 4063
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "down",
+          "response_time_ms": 30038
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 122
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 320
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 288
+        }
+      ]
     }
   ],
   "incidents": [
+    {
+      "id": "39b7dc13-0795-4017-9fbd-90f97fa8634d",
+      "api_name": "Foxcode-ultra",
+      "start_time": "2026-09-08T15:18:23+00:00",
+      "end_time": null,
+      "status": "open",
+      "severity": "down",
+      "last_error": "Request timeout",
+      "last_http_status": null
+    },
     {
       "id": "a91cc77d-56fe-4beb-a7d4-8fd0fe2a401a",
       "api_name": "Foxcode-ultra",
