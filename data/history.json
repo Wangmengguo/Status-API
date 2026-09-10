@@ -2,66 +2,6 @@
   "retention_days": 90,
   "checks": [
     {
-      "timestamp": "2026-06-12T06:53:49+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "up",
-          "response_time_ms": 2460
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 1528
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 263
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 389
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 328
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-06-12T10:54:57+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "up",
-          "response_time_ms": 2387
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 1565
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 367
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 273
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 243
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-12T13:55:47+00:00",
       "results": [
         {
@@ -26878,6 +26818,36 @@
           "name": "Aigocode #2",
           "status": "degraded",
           "response_time_ms": 354
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-10T11:46:54+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "up",
+          "response_time_ms": 2973
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "up",
+          "response_time_ms": 2079
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 358
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 320
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 194
         }
       ]
     }
