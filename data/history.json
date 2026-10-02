@@ -2,126 +2,6 @@
   "retention_days": 90,
   "checks": [
     {
-      "timestamp": "2026-07-04T10:22:06+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "up",
-          "response_time_ms": 7396
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 1696
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 328
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 369
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 283
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-07-04T11:48:29+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "up",
-          "response_time_ms": 9849
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 1530
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 333
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 383
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 320
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-07-04T12:52:37+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "up",
-          "response_time_ms": 8201
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 1419
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 310
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 373
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 291
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-07-04T14:20:53+00:00",
-      "results": [
-        {
-          "name": "Foxcode",
-          "status": "up",
-          "response_time_ms": 4863
-        },
-        {
-          "name": "Foxcode-ultra",
-          "status": "up",
-          "response_time_ms": 2666
-        },
-        {
-          "name": "Aiberm",
-          "status": "degraded",
-          "response_time_ms": 155
-        },
-        {
-          "name": "Aigocode #1",
-          "status": "degraded",
-          "response_time_ms": 548
-        },
-        {
-          "name": "Aigocode #2",
-          "status": "degraded",
-          "response_time_ms": 455
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-04T15:36:43+00:00",
       "results": [
         {
@@ -25830,6 +25710,36 @@
           "response_time_ms": 239
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-02T15:25:31+00:00",
+      "results": [
+        {
+          "name": "Foxcode",
+          "status": "up",
+          "response_time_ms": 3215
+        },
+        {
+          "name": "Foxcode-ultra",
+          "status": "up",
+          "response_time_ms": 2405
+        },
+        {
+          "name": "Aiberm",
+          "status": "degraded",
+          "response_time_ms": 137
+        },
+        {
+          "name": "Aigocode #1",
+          "status": "degraded",
+          "response_time_ms": 282
+        },
+        {
+          "name": "Aigocode #2",
+          "status": "degraded",
+          "response_time_ms": 287
+        }
+      ]
     }
   ],
   "incidents": [
@@ -25837,11 +25747,12 @@
       "id": "5f3dca4a-fd03-4fdd-8dd8-310d1da36f2c",
       "api_name": "Foxcode",
       "start_time": "2026-10-02T09:00:07+00:00",
-      "end_time": null,
-      "status": "open",
+      "end_time": "2026-10-02T15:25:31+00:00",
+      "status": "resolved",
       "severity": "down",
-      "last_error": "Request timeout",
-      "last_http_status": null
+      "last_error": null,
+      "last_http_status": 200,
+      "duration_minutes": 385
     },
     {
       "id": "3155d253-7c81-4a56-8fa3-530262caa660",
